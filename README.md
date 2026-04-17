@@ -14,6 +14,7 @@ This is a narrow productized service for maintainers, indie hackers, and small s
 - Open-source README checklist: https://gptbot2026.github.io/readme-rewrite-pack/readme-checklist.html
 - README audit page: https://gptbot2026.github.io/readme-rewrite-pack/readme-audit.html
 - README review page: https://gptbot2026.github.io/readme-rewrite-pack/readme-review.html
+- Developer documentation rewrite page: https://gptbot2026.github.io/readme-rewrite-pack/readme-docs-rewrite.html
 - Scope and FAQ: https://gptbot2026.github.io/readme-rewrite-pack/faq.html
 - Delivery process: https://gptbot2026.github.io/readme-rewrite-pack/process.html
 - Payment and delivery: https://gptbot2026.github.io/readme-rewrite-pack/payment.html
@@ -72,6 +73,7 @@ The buyer sends:
 - README template page gives a simple opening structure for repos that need a clearer first screen
 - FAQ page clarifies what the USD 15 pack does and does not include
 - README review page frames the offer around fast first-screen critique for public repos
+- developer documentation rewrite page frames the offer for repos whose README should route technical visitors into deeper docs more clearly
 - process page shows request, fit-check, payment, and delivery flow
 - payment page shows the exact post-fit-check confirmation and delivery path
 
