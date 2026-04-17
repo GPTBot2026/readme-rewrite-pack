@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>README Rewrite Pack Sample</title>
+    <meta name="description" content="Sample delivery shape for the README Rewrite Pack.">
+    <style>
+      :root {
+        --bg: #f3efe7;
+        --panel: rgba(255,255,255,0.9);
+        --ink: #20212a;
+        --muted: #5b5f6d;
+        --accent: #3657a7;
+        --line: rgba(32,33,42,0.12);
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        font-family: Georgia, "Iowan Old Style", serif;
+        color: var(--ink);
+        background:
+          radial-gradient(circle at top left, rgba(54,87,167,0.12), transparent 34%),
+          linear-gradient(180deg, #faf8f3 0%, var(--bg) 100%);
+      }
+      main { width: min(920px, calc(100% - 32px)); margin: 0 auto; padding: 40px 0 64px; }
+      .panel { padding: 28px; border-radius: 24px; border: 1px solid var(--line); background: var(--panel); box-shadow: 0 16px 48px rgba(41,48,77,0.08); }
+      h1, h2 { margin: 0 0 12px; line-height: 1.02; }
+      h1 { font-size: clamp(2.2rem, 6vw, 4.2rem); max-width: 12ch; }
+      h2 { font-size: 1.4rem; margin-top: 22px; }
+      p, li { color: var(--muted); line-height: 1.7; font-size: 1rem; }
+      .label { display:inline-block; margin-bottom:14px; padding:6px 10px; border-radius:999px; background:rgba(54,87,167,0.1); color:var(--accent); font-size:0.82rem; letter-spacing:0.04em; text-transform:uppercase; }
+      .block { margin-top: 18px; padding: 18px 18px; border-radius: 18px; background: rgba(32,33,42,0.04); }
+      .route { display:flex; flex-wrap:wrap; gap:10px; margin-top:20px; }
+      .route a { display:inline-flex; align-items:center; justify-content:center; min-height:44px; padding:0 15px; border-radius:999px; text-decoration:none; font-weight:700; }
+      .route .primary { background: var(--accent); color: white; }
+      .route .secondary { background: rgba(32,33,42,0.06); color: var(--ink); }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="panel">
+        <span class="label">Sample delivery shape</span>
+        <h1>What the buyer receives.</h1>
+        <p>
+          This is a sample structure, not a promise of specific outcomes. The actual rewrite depends on the public repo, its current README, and the buyer's stated conversion goal.
+        </p>
+        <div class="block">
+          <h2>1. Rewritten opening</h2>
+          <p><strong>ProjectName</strong> helps operations teams turn recurring spreadsheet-heavy work into one repeatable browser workflow without building a custom internal tool first.</p>
+          <p>It is best for small teams that need a fast, visible improvement in turnaround time. Start with the live demo if you want to see the workflow before reading setup details or API notes.</p>
+        </div>
+        <div class="block">
+          <h2>2. Three headline directions</h2>
+          <ul>
+            <li>Outcome-first: “Turn repeat admin work into one repeatable browser workflow.”</li>
+            <li>Workflow-first: “Capture the steps once, run the task the same way every time.”</li>
+            <li>Proof-first: “Used to replace multi-tab manual workflows with one runnable process.”</li>
+          </ul>
+        </div>
+        <div class="block">
+          <h2>3. CTA or install-section rewrite</h2>
+          <p>Start with the hosted demo if you want proof in under five minutes. Use the local install path only if you need to test the workflow against your own environment after the demo fits.</p>
+        </div>
+        <div class="block">
+          <h2>4. Structure fix list</h2>
+          <ul>
+            <li>Move user and outcome above architecture or feature bullets.</li>
+            <li>Add one visible fast-start action near the top of the file.</li>
+            <li>Keep trust signals or proof links above the long setup section.</li>
+            <li>Collapse duplicate implementation detail that slows the first screen.</li>
+          </ul>
+        </div>
+        <div class="block">
+          <h2>5. First change to ship</h2>
+          <p>Rewrite the first 8 to 12 lines before touching the rest of the README. That section does most of the conversion work for first-time visitors and usually gives the fastest lift.</p>
+        </div>
+        <div class="route">
+          <a class="primary" href="https://github.com/GPTBot2026/readme-rewrite-pack/issues/new?title=README%20Rewrite%20Request">Open request</a>
+          <a class="secondary" href="index.html">Back to offer</a>
+          <a class="secondary" href="faq.html">Read FAQ</a>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

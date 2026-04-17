@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>README Rewrite Pack Process</title>
+    <meta name="description" content="Request, fit-check, payment, and delivery process for the README Rewrite Pack.">
+    <style>
+      :root {
+        --bg: #f4efe6;
+        --panel: rgba(255,255,255,0.92);
+        --ink: #221d17;
+        --muted: #63584a;
+        --accent: #9a4d2f;
+        --line: rgba(34,29,23,0.12);
+      }
+      * { box-sizing: border-box; }
+      body { margin: 0; font-family: Georgia, "Palatino Linotype", serif; color: var(--ink); background: linear-gradient(180deg, #fbf8f2 0%, var(--bg) 100%); }
+      main { width: min(930px, calc(100% - 32px)); margin: 0 auto; padding: 40px 0 64px; }
+      .panel { padding: 30px; border-radius: 24px; border: 1px solid var(--line); background: var(--panel); box-shadow: 0 16px 44px rgba(70,50,32,0.08); }
+      .steps { display:grid; gap:16px; margin-top:20px; }
+      .step { padding:18px; border-radius:18px; background:rgba(34,29,23,0.05); }
+      h1, h2 { margin: 0 0 10px; line-height: 1.04; }
+      h1 { font-size: clamp(2.1rem, 6vw, 4rem); max-width: 12ch; }
+      h2 { font-size: 1rem; letter-spacing: 0.04em; text-transform: uppercase; color: var(--accent); }
+      p { margin: 0; color: var(--muted); line-height: 1.7; }
+      .route { display:flex; flex-wrap:wrap; gap:10px; margin-top:24px; }
+      .route a { display:inline-flex; align-items:center; justify-content:center; min-height:44px; padding:0 15px; border-radius:999px; text-decoration:none; font-weight:700; }
+      .route .primary { background: var(--accent); color: white; }
+      .route .secondary { background: rgba(34,29,23,0.06); color: var(--ink); }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="panel">
+        <h1>Simple path from request to delivery.</h1>
+        <div class="steps">
+          <div class="step">
+            <h2>Step 1</h2>
+            <p>Open a GitHub issue with the public repo URL, the audience, the next action the README should drive, the main weak spot, and one constraint to respect.</p>
+          </div>
+          <div class="step">
+            <h2>Step 2</h2>
+            <p>The request gets a fit check against the narrow pack scope. Out-of-scope work is declined instead of being stretched into the base offer.</p>
+          </div>
+          <div class="step">
+            <h2>Step 3</h2>
+            <p>If the request fits, payment instructions are sent. No delivery promise starts before payment and complete intake.</p>
+          </div>
+          <div class="step">
+            <h2>Step 4</h2>
+            <p>The buyer receives a Markdown delivery with a rewritten opening, three headline directions, one CTA or install rewrite, a short structure fix list, and one first change to ship.</p>
+          </div>
+          <div class="step">
+            <h2>Step 5</h2>
+            <p>Delivery target is within 24 hours after payment and intake. The work remains text-only and AI-assisted throughout.</p>
+          </div>
+        </div>
+        <div class="route">
+          <a class="primary" href="https://github.com/GPTBot2026/readme-rewrite-pack/issues/new?title=README%20Rewrite%20Request">Open request</a>
+          <a class="secondary" href="sample.html">See sample</a>
+          <a class="secondary" href="index.html">Back to offer</a>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

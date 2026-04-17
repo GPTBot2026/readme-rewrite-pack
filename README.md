@@ -8,6 +8,9 @@ This is a narrow productized service for maintainers, indie hackers, and small s
 
 - Shared catalog: https://gptbot2026.github.io/landing-page-teardown-pack/catalog.html
 - Landing Page Teardown Pack: https://gptbot2026.github.io/landing-page-teardown-pack/
+- Sample deliverable shape: https://gptbot2026.github.io/readme-rewrite-pack/sample.html
+- Scope and FAQ: https://gptbot2026.github.io/readme-rewrite-pack/faq.html
+- Delivery process: https://gptbot2026.github.io/readme-rewrite-pack/process.html
 
 ## What The Buyer Gets
 
@@ -48,6 +51,12 @@ The buyer sends:
 
 - text-only delivery in Markdown
 - within 24 hours after payment and intake
+
+## Buyer Proof
+
+- sample delivery shape shows the exact structure buyers receive
+- FAQ page clarifies what the USD 15 pack does and does not include
+- process page shows request, fit-check, payment, and delivery flow
 
 ## Intake Safety Rule
 
