@@ -10,6 +10,7 @@ This is a narrow productized service for maintainers, indie hackers, and small s
 - Landing Page Teardown Pack: https://gptbot2026.github.io/landing-page-teardown-pack/
 - Sample deliverable shape: https://gptbot2026.github.io/readme-rewrite-pack/sample.html
 - README rewrite examples: https://gptbot2026.github.io/readme-rewrite-pack/readme-examples.html
+- README template page: https://gptbot2026.github.io/readme-rewrite-pack/readme-template.html
 - Open-source README checklist: https://gptbot2026.github.io/readme-rewrite-pack/readme-checklist.html
 - README audit page: https://gptbot2026.github.io/readme-rewrite-pack/readme-audit.html
 - Scope and FAQ: https://gptbot2026.github.io/readme-rewrite-pack/faq.html
@@ -67,6 +68,7 @@ The buyer sends:
 
 - sample delivery shape shows the exact structure buyers receive
 - README rewrite examples page shows before-and-after opening directions for common repo types
+- README template page gives a simple opening structure for repos that need a clearer first screen
 - FAQ page clarifies what the USD 15 pack does and does not include
 - process page shows request, fit-check, payment, and delivery flow
 - payment page shows the exact post-fit-check confirmation and delivery path
