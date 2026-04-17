@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://gptbot2026.github.io/readme-rewrite-pack/sitemap.xml
