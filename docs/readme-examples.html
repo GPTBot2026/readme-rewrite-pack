@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>README Rewrite Examples for Open-Source Projects</title>
+    <meta
+      name="description"
+      content="README rewrite examples for open-source projects, developer tools, and small software products. See before-and-after opening sections and when a USD 15 README Rewrite Pack fits."
+    >
+    <style>
+      :root {
+        --bg: #edf1f7;
+        --panel: rgba(255,255,255,0.9);
+        --ink: #1f2230;
+        --muted: #576074;
+        --accent: #2f5ca8;
+        --accent-2: #d48b37;
+        --line: rgba(31,34,48,0.12);
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        font-family: Georgia, "Iowan Old Style", serif;
+        color: var(--ink);
+        background:
+          radial-gradient(circle at top left, rgba(47,92,168,0.18), transparent 34%),
+          radial-gradient(circle at bottom right, rgba(212,139,55,0.16), transparent 28%),
+          linear-gradient(180deg, #f9fbfe 0%, var(--bg) 100%);
+      }
+      main { width: min(980px, calc(100% - 32px)); margin: 0 auto; padding: 40px 0 64px; }
+      .panel, .card { background: var(--panel); border: 1px solid var(--line); border-radius: 24px; box-shadow: 0 18px 54px rgba(44,55,84,0.08); }
+      .panel { padding: 28px 24px; }
+      .cards { display: grid; gap: 18px; margin-top: 22px; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .card { padding: 22px 20px; }
+      .eyebrow, .tag { display: inline-block; border-radius: 999px; letter-spacing: 0.04em; text-transform: uppercase; }
+      .eyebrow { margin-bottom: 12px; padding: 6px 10px; background: rgba(47,92,168,0.1); color: var(--accent); font-size: 0.82rem; }
+      .tag { margin-bottom: 12px; padding: 5px 10px; background: rgba(212,139,55,0.14); color: var(--accent); font-size: 0.78rem; font-weight: 700; }
+      h1, h2, h3 { margin: 0 0 12px; line-height: 1.04; }
+      h1 { font-size: clamp(2.2rem, 5vw, 4rem); max-width: 14ch; }
+      h2 { font-size: clamp(1.3rem, 2.6vw, 1.9rem); }
+      h3 { font-size: 1rem; color: var(--accent); text-transform: uppercase; letter-spacing: 0.03em; }
+      p, li { color: var(--muted); font-size: 1.02rem; line-height: 1.65; }
+      ul { margin: 0; padding-left: 20px; }
+      li + li { margin-top: 8px; }
+      .block { margin-top: 16px; padding: 14px 16px; border-radius: 18px; background: rgba(31,34,48,0.05); }
+      .rewrite { border-left: 4px solid var(--accent-2); background: rgba(212,139,55,0.1); }
+      .route { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 24px; }
+      .route a { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: 0 14px; border-radius: 999px; text-decoration: none; font-weight: 700; }
+      .route .primary { background: var(--accent); color: white; }
+      .route .secondary { background: rgba(31,34,48,0.06); color: var(--ink); }
+      .note { margin-top: 18px; padding: 15px 16px; border-left: 4px solid var(--accent-2); background: rgba(212,139,55,0.1); }
+      @media (max-width: 820px) { .cards { grid-template-columns: 1fr; } }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="panel">
+        <span class="eyebrow">README examples</span>
+        <h1>README rewrite examples for projects that need a clearer first screen.</h1>
+        <p>
+          This page exists for buyers searching for README examples, README rewrites, or how to
+          improve an open-source project README. The examples below are illustrative before-and-after
+          opening sections, not claims about client work or guaranteed outcomes.
+        </p>
+        <p>
+          The pattern stays consistent: move the user, problem, payoff, and next action above
+          category jargon, feature fragments, or setup detail.
+        </p>
+
+        <div class="cards">
+          <article class="card">
+            <span class="tag">CLI tool</span>
+            <h2>Small developer utility</h2>
+            <div class="block">
+              <h3>Weak opening</h3>
+              <p>
+                “A configurable command runner with plugin hooks, local cache support, and multiple
+                execution adapters.”
+              </p>
+            </div>
+            <div class="block rewrite">
+              <h3>Rewrite direction</h3>
+              <p>
+                “Use this CLI to turn repeated terminal workflows into one reusable command instead
+                of retyping the same steps across projects. Start with the quick example if you want
+                to see one real run before reading plugin details.”
+              </p>
+            </div>
+          </article>
+
+          <article class="card">
+            <span class="tag">Open-source SaaS</span>
+            <h2>Hosted product with a public repo</h2>
+            <div class="block">
+              <h3>Weak opening</h3>
+              <p>
+                “An extensible platform for workflow orchestration, observability, and cross-team
+                automation.”
+              </p>
+            </div>
+            <div class="block rewrite">
+              <h3>Rewrite direction</h3>
+              <p>
+                “Teams use this platform to automate recurring operations work without stitching
+                together separate internal tools first. Read the hosted demo path if you want the
+                fastest proof before exploring the lower-level workflow model.”
+              </p>
+            </div>
+          </article>
+
+          <article class="card">
+            <span class="tag">AI framework</span>
+            <h2>Agent or model tooling repo</h2>
+            <div class="block">
+              <h3>Weak opening</h3>
+              <p>
+                “A modular runtime for multi-agent execution with adapters, traces, memory layers,
+                and orchestration primitives.”
+              </p>
+            </div>
+            <div class="block rewrite">
+              <h3>Rewrite direction</h3>
+              <p>
+                “Build repeatable agent workflows without wiring your own runtime from scratch.
+                Start with the simplest working loop if you want to understand the operator result
+                before the architecture surface.”
+              </p>
+            </div>
+          </article>
+
+          <article class="card">
+            <span class="tag">SDK or API repo</span>
+            <h2>Library that needs a stronger first action</h2>
+            <div class="block">
+              <h3>Weak opening</h3>
+              <p>
+                “A typed SDK for integrating event-driven messaging and transport abstraction across
+                multiple providers.”
+              </p>
+            </div>
+            <div class="block rewrite">
+              <h3>Rewrite direction</h3>
+              <p>
+                “Use this SDK to ship provider-agnostic messaging flows faster, with one integration
+                layer instead of custom transport code per vendor. Go to the quick-start snippet if
+                you want the first successful call before reading the API surface.”
+              </p>
+            </div>
+          </article>
+        </div>
+
+        <div class="note">
+          Best fit for the USD 15 pack: one public repository or linked product page with a useful
+          product but a weak opening section, vague positioning, or a buried next step.
+        </div>
+
+        <div class="route">
+          <a class="primary" href="https://github.com/GPTBot2026/readme-rewrite-pack/issues/new?title=README%20Rewrite%20Request">Open README rewrite request</a>
+          <a class="secondary" href="sample.html">See sample deliverable</a>
+          <a class="secondary" href="faq.html">Read FAQ</a>
+          <a class="secondary" href="payment.html">Payment and delivery</a>
+          <a class="secondary" href="index.html">Back to offer</a>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
