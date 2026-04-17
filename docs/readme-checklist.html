@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Open Source README Checklist</title>
+    <meta
+      name="description"
+      content="Open-source README checklist for projects that need a clearer first screen, stronger positioning, and a more obvious next action."
+    >
+    <style>
+      :root {
+        --bg: #f0efe8;
+        --panel: rgba(255,255,255,0.92);
+        --ink: #1f1d1a;
+        --muted: #5d574f;
+        --accent: #8a4a2d;
+        --accent-2: #2e6474;
+        --line: rgba(31,29,26,0.12);
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        font-family: Georgia, "Iowan Old Style", serif;
+        color: var(--ink);
+        background:
+          radial-gradient(circle at top left, rgba(138,74,45,0.14), transparent 32%),
+          radial-gradient(circle at bottom right, rgba(46,100,116,0.14), transparent 30%),
+          linear-gradient(180deg, #faf8f2 0%, var(--bg) 100%);
+      }
+      main { width: min(980px, calc(100% - 32px)); margin: 0 auto; padding: 40px 0 64px; }
+      .panel, .card {
+        background: var(--panel);
+        border: 1px solid var(--line);
+        border-radius: 24px;
+        box-shadow: 0 18px 54px rgba(57, 44, 30, 0.08);
+      }
+      .panel { padding: 30px 24px; }
+      .cards { display: grid; gap: 18px; margin-top: 22px; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .card { padding: 22px 20px; }
+      .eyebrow {
+        display: inline-block;
+        margin-bottom: 12px;
+        padding: 6px 10px;
+        border-radius: 999px;
+        background: rgba(138,74,45,0.1);
+        color: var(--accent);
+        font-size: 0.82rem;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+      }
+      h1, h2, h3 { margin: 0 0 12px; line-height: 1.04; }
+      h1 { font-size: clamp(2.2rem, 5vw, 4rem); max-width: 12ch; }
+      h2 { font-size: clamp(1.25rem, 2.6vw, 1.9rem); }
+      h3 { font-size: 0.98rem; color: var(--accent); letter-spacing: 0.04em; text-transform: uppercase; }
+      p, li { color: var(--muted); font-size: 1.02rem; line-height: 1.65; }
+      ul { margin: 0; padding-left: 20px; }
+      li + li { margin-top: 8px; }
+      .checklist { margin-top: 16px; padding: 16px 18px; border-radius: 18px; background: rgba(31,29,26,0.05); }
+      .checklist strong { color: var(--ink); }
+      .note {
+        margin-top: 20px;
+        padding: 15px 16px;
+        border-left: 4px solid var(--accent-2);
+        background: rgba(46,100,116,0.1);
+      }
+      .route { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 24px; }
+      .route a {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 44px;
+        padding: 0 14px;
+        border-radius: 999px;
+        text-decoration: none;
+        font-weight: 700;
+      }
+      .route .primary { background: var(--accent); color: white; }
+      .route .secondary { background: rgba(31,29,26,0.06); color: var(--ink); }
+      @media (max-width: 820px) { .cards { grid-template-columns: 1fr; } }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="panel">
+        <span class="eyebrow">README checklist</span>
+        <h1>Open-source README checklist for repos that lose visitors in the first screen.</h1>
+        <p>
+          This page is for buyers searching for an open-source README checklist, README audit, or
+          README rewrite help. It is not a claim about ranking or conversion guarantees. It is a
+          practical list for maintainers who need the repo opening to explain the product and next
+          action before readers drift into setup detail.
+        </p>
+
+        <div class="cards">
+          <article class="card">
+            <h2>First-screen checklist</h2>
+            <div class="checklist">
+              <ul>
+                <li><strong>State the user and outcome fast.</strong> A new visitor should know who the project is for and what it helps them do inside the first few lines.</li>
+                <li><strong>Lead with payoff before architecture.</strong> Category terms and abstractions belong after the reader understands why the project exists.</li>
+                <li><strong>Show one obvious next action.</strong> Choose one: install, demo, signup, or example run. Do not make the first action ambiguous.</li>
+                <li><strong>Cut internal language.</strong> Replace maintainer shorthand and feature fragments with buyer-facing language first.</li>
+                <li><strong>Keep proof close.</strong> Put a screenshot, demo link, short example, or credible usage clue near the opening instead of burying it.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="card">
+            <h2>Common failure pattern</h2>
+            <p>
+              Many README files lead with stack details, plugin systems, adapters, or framework
+              vocabulary. That usually makes the project sound abstract even when the product is
+              already useful. The fix is usually not “more detail.” It is a tighter opening that
+              moves user, problem, payoff, and next step above the technical surface.
+            </p>
+            <div class="note">
+              Quick test: if a first-time visitor cannot say what the project does and what to do
+              next within ten seconds, the opening still needs work.
+            </div>
+          </article>
+
+          <article class="card">
+            <h2>Good fit for the USD 15 pack</h2>
+            <div class="checklist">
+              <ul>
+                <li>one public repository or one linked public product page</li>
+                <li>a credible product with a weak README opening</li>
+                <li>a maintainer who wants text-only guidance, not code changes</li>
+                <li>a repo that needs a clearer CTA, install path, or demo path</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="card">
+            <h2>What the pack delivers</h2>
+            <div class="checklist">
+              <ul>
+                <li>one rewritten opening section</li>
+                <li>three headline or tagline directions</li>
+                <li>one CTA, install, or demo section rewrite</li>
+                <li>a short structure fix list for the rest of the README</li>
+                <li>one recommended first change to ship</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+
+        <div class="route">
+          <a class="primary" href="https://github.com/GPTBot2026/readme-rewrite-pack/issues/new?title=README%20Rewrite%20Request">Open README rewrite request</a>
+          <a class="secondary" href="readme-examples.html">See README examples</a>
+          <a class="secondary" href="sample.html">See sample deliverable</a>
+          <a class="secondary" href="faq.html">Read FAQ</a>
+          <a class="secondary" href="index.html">Back to offer</a>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
