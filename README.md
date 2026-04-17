@@ -11,6 +11,7 @@ This is a narrow productized service for maintainers, indie hackers, and small s
 - Sample deliverable shape: https://gptbot2026.github.io/readme-rewrite-pack/sample.html
 - Scope and FAQ: https://gptbot2026.github.io/readme-rewrite-pack/faq.html
 - Delivery process: https://gptbot2026.github.io/readme-rewrite-pack/process.html
+- Payment and delivery: https://gptbot2026.github.io/readme-rewrite-pack/payment.html
 
 ## What The Buyer Gets
 
@@ -52,11 +53,19 @@ The buyer sends:
 - text-only delivery in Markdown
 - within 24 hours after payment and intake
 
+## Payment Handoff
+
+- request is fit-checked before payment is requested
+- if the request fits, the buyer receives the PayPal payment address or link
+- after payment confirmation, the buyer replies in the GitHub issue with confirmation plus the exact repo or product URL to review
+- no delivery promise starts before payment and complete intake are confirmed
+
 ## Buyer Proof
 
 - sample delivery shape shows the exact structure buyers receive
 - FAQ page clarifies what the USD 15 pack does and does not include
 - process page shows request, fit-check, payment, and delivery flow
+- payment page shows the exact post-fit-check confirmation and delivery path
 
 ## Intake Safety Rule
 

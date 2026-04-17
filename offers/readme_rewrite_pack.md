@@ -33,3 +33,10 @@ This is a low-ticket GitHub-native service. It is text-only, fast to fulfill, an
 - do not promise install, conversion, or growth outcomes
 - do not claim technical implementation work
 - deliver the finished pack as Markdown
+
+## Payment Handoff
+
+- fit-check the request before asking for payment
+- after fit is confirmed, send the PayPal payment address or link for USD 15
+- require the buyer to reply with payment confirmation plus the exact public repo URL and any linked product URL
+- do not accept private repos or private materials during the payment stage
