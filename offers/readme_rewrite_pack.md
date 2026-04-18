@@ -29,6 +29,7 @@ This is a low-ticket GitHub-native service. It is text-only, fast to fulfill, an
 
 Extra search-intent surface: technical documentation rewrite for public API and developer-tool repos that need a stronger README-to-docs bridge without a full docs engagement.
 Extra search-intent surface: API quickstart rewrite for public developer repos that need a clearer README-to-first-success path without claiming a full docs redesign.
+Extra search-intent surface: SDK onboarding rewrite for public SDK and integration repos that need a clearer README-to-first-working-integration path without claiming implementation work.
 
 ## Delivery Notes
 

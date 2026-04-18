@@ -17,6 +17,7 @@ This is a narrow productized service for maintainers, indie hackers, and small s
 - Developer documentation rewrite page: https://gptbot2026.github.io/readme-rewrite-pack/readme-docs-rewrite.html
 - Technical documentation rewrite page: https://gptbot2026.github.io/readme-rewrite-pack/technical-documentation-rewrite.html
 - API quickstart rewrite page: https://gptbot2026.github.io/readme-rewrite-pack/api-quickstart-rewrite.html
+- SDK onboarding rewrite page: https://gptbot2026.github.io/readme-rewrite-pack/sdk-onboarding-rewrite.html
 - Scope and FAQ: https://gptbot2026.github.io/readme-rewrite-pack/faq.html
 - Delivery process: https://gptbot2026.github.io/readme-rewrite-pack/process.html
 - Payment and delivery: https://gptbot2026.github.io/readme-rewrite-pack/payment.html
@@ -78,6 +79,7 @@ The buyer sends:
 - developer documentation rewrite page frames the offer for repos whose README should route technical visitors into deeper docs more clearly
 - technical documentation rewrite page frames the offer around API and developer-tool docs entry points without claiming a full docs engagement
 - API quickstart rewrite page frames the offer around getting technical visitors to a first successful call, command, or demo path faster
+- SDK onboarding rewrite page frames the offer around getting SDK users from install to first working integration faster without claiming implementation work
 - process page shows request, fit-check, payment, and delivery flow
 - payment page shows the exact post-fit-check confirmation and delivery path
 

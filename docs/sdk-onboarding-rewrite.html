@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SDK Onboarding Rewrite for Public Developer Repos</title>
+    <meta
+      name="description"
+      content="SDK onboarding rewrite page for public developer repos that need a clearer README opening and a faster path into installation, first request, or first successful integration."
+    >
+    <style>
+      :root {
+        --bg: #eef2f8;
+        --panel: rgba(255,255,255,0.93);
+        --ink: #1d2430;
+        --muted: #586373;
+        --accent: #355a96;
+        --accent-2: #27806d;
+        --line: rgba(29,36,48,0.12);
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        font-family: "Gill Sans", "Trebuchet MS", sans-serif;
+        color: var(--ink);
+        background:
+          radial-gradient(circle at top left, rgba(53,90,150,0.16), transparent 34%),
+          radial-gradient(circle at bottom right, rgba(39,128,109,0.14), transparent 30%),
+          linear-gradient(180deg, #fbfcff 0%, var(--bg) 100%);
+      }
+      main { width: min(980px, calc(100% - 32px)); margin: 0 auto; padding: 40px 0 64px; }
+      .panel, .card {
+        background: var(--panel);
+        border: 1px solid var(--line);
+        border-radius: 24px;
+        box-shadow: 0 18px 54px rgba(39, 48, 67, 0.08);
+      }
+      .panel { padding: 30px 24px; }
+      .cards { display: grid; gap: 18px; margin-top: 22px; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .card { padding: 22px 20px; }
+      .eyebrow {
+        display: inline-block;
+        margin-bottom: 12px;
+        padding: 6px 10px;
+        border-radius: 999px;
+        background: rgba(53,90,150,0.11);
+        color: var(--accent);
+        font-size: 0.82rem;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+      }
+      h1, h2 { margin: 0 0 12px; line-height: 1.04; }
+      h1 { font-size: clamp(2.2rem, 5vw, 4.1rem); max-width: 12ch; }
+      h2 { font-size: clamp(1.25rem, 2.6vw, 1.95rem); }
+      p, li { color: var(--muted); font-size: 1.02rem; line-height: 1.65; }
+      ul { margin: 0; padding-left: 20px; }
+      li + li { margin-top: 8px; }
+      .block { margin-top: 16px; padding: 15px 16px; border-radius: 18px; background: rgba(29,36,48,0.05); }
+      .accent { border-left: 4px solid var(--accent-2); background: rgba(39,128,109,0.11); }
+      .route { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 24px; }
+      .route a {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 44px;
+        padding: 0 14px;
+        border-radius: 999px;
+        text-decoration: none;
+        font-weight: 700;
+      }
+      .route .primary { background: var(--accent); color: white; }
+      .route .secondary { background: rgba(29,36,48,0.06); color: var(--ink); }
+      .note {
+        margin-top: 20px;
+        padding: 16px 18px;
+        border-left: 4px solid var(--accent-2);
+        background: rgba(39,128,109,0.12);
+      }
+      @media (max-width: 820px) { .cards { grid-template-columns: 1fr; } }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="panel">
+        <span class="eyebrow">SDK onboarding rewrite</span>
+        <h1>SDK onboarding rewrite help for public repos that lose developers before the first working integration.</h1>
+        <p>
+          This page exists for buyers searching for SDK onboarding rewrite help, developer setup copy
+          support, or a lightweight first-integration docs pass for one public repository. The offer
+          stays narrow and truthful: it sharpens the README opening and the first integration path so
+          a technical reader can tell what the SDK does, how fast they can get to a working call, and
+          what to do after the first success without reading the entire repo first.
+        </p>
+
+        <div class="cards">
+          <article class="card">
+            <h2>Where SDK onboarding usually breaks</h2>
+            <div class="block">
+              <ul>
+                <li>the README explains package structure before it explains the user outcome</li>
+                <li>install steps show up without a shortest path to one working request or event flow</li>
+                <li>auth, environment, or setup details land before the reader knows what success looks like</li>
+                <li>language examples exist but the fastest first integration path is not obvious</li>
+                <li>the repo never tells a new user what should happen after the first successful run</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="card">
+            <h2>What this rewrite actually fixes</h2>
+            <div class="block accent">
+              <p>
+                It improves the README opening and the first integration path. It does not claim a
+                full SDK audit, implementation review, or multi-language docs engagement.
+              </p>
+            </div>
+            <p>
+              The goal is to reduce drop-off between landing on the repo and reaching the first
+              working install, request, webhook, or event flow.
+            </p>
+          </article>
+
+          <article class="card">
+            <h2>Best fit for this page</h2>
+            <div class="block">
+              <ul>
+                <li>public SDK, API client, integration, or developer platform repos</li>
+                <li>projects whose first-time users need a clearer path from install to first success</li>
+                <li>maintainers who need a small copy pass before broader docs work</li>
+                <li>one public repo or one linked product page at the base USD 15 scope</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="card">
+            <h2>What gets delivered</h2>
+            <div class="block">
+              <ul>
+                <li>one rewritten README opening section</li>
+                <li>three headline or positioning options</li>
+                <li>one rewritten onboarding or first-integration block</li>
+                <li>a short structure fix list for the rest of the README</li>
+                <li>one recommended copy change to help a developer reach first success faster</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+
+        <div class="note">
+          Strong fit signal: the SDK works, examples exist, and new developers still have to infer
+          the fastest path from install to one successful integration outcome.
+        </div>
+
+        <div class="route">
+          <a class="primary" href="https://github.com/GPTBot2026/readme-rewrite-pack/issues/new?title=README%20Rewrite%20Request">Open README rewrite request</a>
+          <a class="secondary" href="api-quickstart-rewrite.html">See API quickstart rewrite page</a>
+          <a class="secondary" href="technical-documentation-rewrite.html">See technical docs rewrite page</a>
+          <a class="secondary" href="readme-docs-rewrite.html">See developer docs rewrite page</a>
+          <a class="secondary" href="readme-examples.html">See README examples</a>
+          <a class="secondary" href="sample.html">See sample deliverable</a>
+          <a class="secondary" href="index.html">Back to offer</a>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
