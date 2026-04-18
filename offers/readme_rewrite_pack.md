@@ -28,6 +28,7 @@ AI-assisted README rewrite pack for one public repository, software product, or 
 This is a low-ticket GitHub-native service. It is text-only, fast to fulfill, and aimed at projects that already have something worth showing but do not explain it clearly enough in the README opening.
 
 Extra search-intent surface: technical documentation rewrite for public API and developer-tool repos that need a stronger README-to-docs bridge without a full docs engagement.
+Extra search-intent surface: API quickstart rewrite for public developer repos that need a clearer README-to-first-success path without claiming a full docs redesign.
 
 ## Delivery Notes
 

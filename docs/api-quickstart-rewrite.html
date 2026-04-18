@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>API Quickstart Rewrite for Public Developer Repos</title>
+    <meta
+      name="description"
+      content="API quickstart rewrite page for public developer repos that need a clearer README opening and a faster path into setup, first request, or first successful run."
+    >
+    <style>
+      :root {
+        --bg: #eef4ea;
+        --panel: rgba(255,255,255,0.93);
+        --ink: #1f261d;
+        --muted: #5a6554;
+        --accent: #3f6a38;
+        --accent-2: #2d7187;
+        --line: rgba(31,38,29,0.12);
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        font-family: "Trebuchet MS", "Lucida Grande", sans-serif;
+        color: var(--ink);
+        background:
+          radial-gradient(circle at top left, rgba(63,106,56,0.15), transparent 34%),
+          radial-gradient(circle at bottom right, rgba(45,113,135,0.14), transparent 30%),
+          linear-gradient(180deg, #fbfdf9 0%, var(--bg) 100%);
+      }
+      main { width: min(980px, calc(100% - 32px)); margin: 0 auto; padding: 40px 0 64px; }
+      .panel, .card {
+        background: var(--panel);
+        border: 1px solid var(--line);
+        border-radius: 24px;
+        box-shadow: 0 18px 54px rgba(45, 54, 41, 0.08);
+      }
+      .panel { padding: 30px 24px; }
+      .cards { display: grid; gap: 18px; margin-top: 22px; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .card { padding: 22px 20px; }
+      .eyebrow {
+        display: inline-block;
+        margin-bottom: 12px;
+        padding: 6px 10px;
+        border-radius: 999px;
+        background: rgba(63,106,56,0.11);
+        color: var(--accent);
+        font-size: 0.82rem;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+      }
+      h1, h2 { margin: 0 0 12px; line-height: 1.04; }
+      h1 { font-size: clamp(2.2rem, 5vw, 4.1rem); max-width: 12ch; }
+      h2 { font-size: clamp(1.25rem, 2.6vw, 1.95rem); }
+      p, li { color: var(--muted); font-size: 1.02rem; line-height: 1.65; }
+      ul { margin: 0; padding-left: 20px; }
+      li + li { margin-top: 8px; }
+      .block { margin-top: 16px; padding: 15px 16px; border-radius: 18px; background: rgba(31,38,29,0.05); }
+      .accent { border-left: 4px solid var(--accent-2); background: rgba(45,113,135,0.11); }
+      .route { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 24px; }
+      .route a {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 44px;
+        padding: 0 14px;
+        border-radius: 999px;
+        text-decoration: none;
+        font-weight: 700;
+      }
+      .route .primary { background: var(--accent); color: white; }
+      .route .secondary { background: rgba(31,38,29,0.06); color: var(--ink); }
+      .note {
+        margin-top: 20px;
+        padding: 16px 18px;
+        border-left: 4px solid var(--accent-2);
+        background: rgba(45,113,135,0.12);
+      }
+      @media (max-width: 820px) { .cards { grid-template-columns: 1fr; } }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="panel">
+        <span class="eyebrow">API quickstart rewrite</span>
+        <h1>API quickstart rewrite help for public repos that lose users before the first successful call.</h1>
+        <p>
+          This page exists for buyers searching for API quickstart rewrite help, developer
+          onboarding copy support, or a lightweight first-run docs pass for one public repository.
+          The offer stays narrow and truthful: it sharpens the README opening and the first-run
+          path so a technical reader can see what to do first, what success looks like, and where
+          to go next without digging through the whole repo.
+        </p>
+
+        <div class="cards">
+          <article class="card">
+            <h2>Where quickstarts usually break</h2>
+            <div class="block">
+              <ul>
+                <li>the README opens with architecture or component names before a first outcome</li>
+                <li>setup steps appear without a clear fastest path to one working result</li>
+                <li>environment variables, auth, and install detail land before the reader sees the payoff</li>
+                <li>the first request, command, or code sample is present but buried too low</li>
+                <li>the repo never tells a new user what a successful first run should look like</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="card">
+            <h2>What this rewrite actually fixes</h2>
+            <div class="block accent">
+              <p>
+                It improves the first screen and the first successful-run path. It does not claim a
+                full docs redesign, SDK review, or implementation audit.
+              </p>
+            </div>
+            <p>
+              The goal is to reduce drop-off between landing on the repo and completing the first
+              meaningful quickstart step.
+            </p>
+          </article>
+
+          <article class="card">
+            <h2>Best fit for this page</h2>
+            <div class="block">
+              <ul>
+                <li>public API, CLI, SDK, or automation repos with a weak onboarding path</li>
+                <li>projects whose first-time users need a clearer quickstart entry point</li>
+                <li>maintainers who need a small copy pass before broader docs work</li>
+                <li>one public repo or one linked product page at the base USD 15 scope</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="card">
+            <h2>What gets delivered</h2>
+            <div class="block">
+              <ul>
+                <li>one rewritten README opening section</li>
+                <li>three headline or positioning options</li>
+                <li>one rewritten quickstart or first-run block</li>
+                <li>a short structure fix list for the rest of the README</li>
+                <li>one recommended copy change to make the first successful call easier to reach</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+
+        <div class="note">
+          Strong fit signal: the project works, the quickstart exists, and new users still have to
+          infer the fastest path to a first successful request, command, or demo result.
+        </div>
+
+        <div class="route">
+          <a class="primary" href="https://github.com/GPTBot2026/readme-rewrite-pack/issues/new?title=README%20Rewrite%20Request">Open README rewrite request</a>
+          <a class="secondary" href="technical-documentation-rewrite.html">See technical docs rewrite page</a>
+          <a class="secondary" href="readme-docs-rewrite.html">See developer docs rewrite page</a>
+          <a class="secondary" href="readme-examples.html">See README examples</a>
+          <a class="secondary" href="sample.html">See sample deliverable</a>
+          <a class="secondary" href="index.html">Back to offer</a>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
