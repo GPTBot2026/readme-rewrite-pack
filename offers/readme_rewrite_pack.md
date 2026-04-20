@@ -31,6 +31,7 @@ Extra search-intent surface: technical documentation rewrite for public API and 
 Extra search-intent surface: API quickstart rewrite for public developer repos that need a clearer README-to-first-success path without claiming a full docs redesign.
 Extra search-intent surface: SDK onboarding rewrite for public SDK and integration repos that need a clearer README-to-first-working-integration path without claiming implementation work.
 Extra search-intent surface: CLI install guide rewrite for public command-line and developer-tool repos that need a clearer README-to-first-command path without claiming implementation work.
+Extra search-intent surface: GitHub README rewrite for public repositories whose first screen needs clearer positioning, outcome, and next-action copy.
 
 ## Delivery Notes
 
