@@ -18,6 +18,7 @@ This is a narrow productized service for maintainers, indie hackers, and small s
 - Technical documentation rewrite page: https://gptbot2026.github.io/readme-rewrite-pack/technical-documentation-rewrite.html
 - API quickstart rewrite page: https://gptbot2026.github.io/readme-rewrite-pack/api-quickstart-rewrite.html
 - SDK onboarding rewrite page: https://gptbot2026.github.io/readme-rewrite-pack/sdk-onboarding-rewrite.html
+- CLI install guide rewrite page: https://gptbot2026.github.io/readme-rewrite-pack/cli-install-guide-rewrite.html
 - Scope and FAQ: https://gptbot2026.github.io/readme-rewrite-pack/faq.html
 - Delivery process: https://gptbot2026.github.io/readme-rewrite-pack/process.html
 - Payment and delivery: https://gptbot2026.github.io/readme-rewrite-pack/payment.html
